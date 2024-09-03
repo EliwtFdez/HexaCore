@@ -1,0 +1,62 @@
+.signup-container {
+  width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #1a1a1a;
+  border: 2px solid #00ff00;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  box-shadow: 0 0 10px #00ff00;
+}
+
+.signup-title {
+  color: #00ff00;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  color: #ffffff;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.pixel-input {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: 2px solid #00ff00;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
+}
+
+.pixel-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #00ff00;
+  color: #000;
+  border: none;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pixel-button:hover {
+  background-color: #007f00;
+}
+
+.is-invalid {
+  border-color: #ff0000;
+}
+
+.invalid-feedback {
+  color: #ff0000;
+  font-size: 12px;
+  margin-top: 5px;
+}

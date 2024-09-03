@@ -1,0 +1,40 @@
+.outer{
+  height: 100vh;
+  background: linear-gradient(to top, #c9c9ec 50%, #6e6ef6 90%) no-repeat;
+}
+.login-container {
+  width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #1a1a1a;
+  border: 2px solid #00ff00;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  box-shadow: 0 0 10px #00ff00;
+}
+
+h1 {
+  color: #00ff00;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  color: #ffffff;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.pixel-input {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: 2px solid #00ff00;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px; /* Asegúrate de que el font-size esté completo */
+}
