@@ -1,3 +1,10 @@
+.outer {
+  height: 100vh;
+  background: linear-gradient(to top, #c9c9ec 50%, #464646 90%) no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .signup-container {
   width: 300px;
   margin: 100px auto;
